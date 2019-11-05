@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "627442409216",
+    "firebase_url": "https://messenger-7a564.firebaseio.com",
+    "project_id": "messenger-7a564",
+    "storage_bucket": "messenger-7a564.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:627442409216:android:b677db573187cd6d9f5de5",
+        "android_client_info": {
+          "package_name": "com.patelheggere.messenger"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "627442409216-tieam4c3ipda3dkr8c0m0godrcivg9f0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.patelheggere.messenger",
+            "certificate_hash": "31f193b39e94e6b1d609010f4fe9be4db314c4a9"
+          }
+        },
+        {
+          "client_id": "627442409216-1afjqioc2bhj992l8rj0gu2l42i895c1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB4pNdcSNXG95PE_b-iYi4PUeGw5g55mf4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "627442409216-1afjqioc2bhj992l8rj0gu2l42i895c1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
