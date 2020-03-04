@@ -17,16 +17,31 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <Spinner
-        android:id="@+id/rel_spinner"
+    <TextView
+        android:id="@+id/textViewSelectRel"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:text="Please Select Religion"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="18sp"
         android:layout_marginStart="16dp"
         android:layout_marginTop="16dp"
         android:layout_marginEnd="16dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/text_home" />
+        app:layout_constraintTop_toBottomOf="@+id/text_home"/>
+    <Spinner
+        android:id="@+id/rel_spinner"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:background="@drawable/spinner_bg"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewSelectRel" />
 
     <EditText
         android:id="@+id/edittextmsg"
@@ -36,6 +51,7 @@
         android:layout_marginTop="16dp"
         android:layout_marginEnd="16dp"
         android:lines="3"
+        android:background="@drawable/edittext_bg"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/rel_spinner" />
